@@ -1,0 +1,630 @@
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between transport and city"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn> <http://www.w3.org/2000/01/rdf-schema#label> "availableIn"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and attraction"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.w3.org/2000/01/rdf-schema#label> "hasAttraction"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and event"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.w3.org/2000/01/rdf-schema#label> "hasEvent"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and hotel"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.w3.org/2000/01/rdf-schema#label> "hasHotel"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and location"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "hasLocation"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and restaurant"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "hasRestaurant"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between city and transport"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.w3.org/2000/01/rdf-schema#label> "hasTransport"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between transport and company"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.w3.org/2000/01/rdf-schema#label> "providedBy"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for an attraction"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> <http://www.w3.org/2000/01/rdf-schema#label> "attraction_id"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for a city"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> <http://www.w3.org/2000/01/rdf-schema#label> "city_id"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> <http://www.w3.org/2000/01/rdf-schema#comment> "The day of the month or year as specified by a number"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> <http://www.w3.org/2000/01/rdf-schema#label> "date"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for a event"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> <http://www.w3.org/2000/01/rdf-schema#label> "event_id"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for a hotel"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> <http://www.w3.org/2000/01/rdf-schema#label> "hotel_id"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location> <http://www.w3.org/2000/01/rdf-schema#comment> "a string representing latitude and longitude"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location> <http://www.w3.org/2000/01/rdf-schema#label> "location"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#comment> "A word or set of words by which a person or thing is known, addressed, or referred to"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#comment> "Average price or, in the case of hotels, price per night"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> <http://www.w3.org/2000/01/rdf-schema#label> "price"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure, quantity, or frequency, typically one measured against another quantity or measure"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> <http://www.w3.org/2000/01/rdf-schema#label> "rate"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for a restaurant"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> <http://www.w3.org/2000/01/rdf-schema#label> "restaurant_id"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#comment> "A number between 1 and 5 that denotes the quality of a hotel"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> <http://www.w3.org/2000/01/rdf-schema#label> "stars"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> <http://www.w3.org/2000/01/rdf-schema#comment> "An id number for a transport"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> <http://www.w3.org/2000/01/rdf-schema#label> "transport_id"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat andalusian meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid2 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#comment> "A place which draws visitors by providing something of interest or pleasure"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> <http://www.w3.org/2000/01/rdf-schema#label> "Attraction"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach> <http://www.w3.org/2000/01/rdf-schema#comment> "A strip of land covered with sand, shingle, or small stones at the edge of a body of water, especially by the sea between high- and low-water marks"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach> <http://www.w3.org/2000/01/rdf-schema#label> "Beach"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment providing accommodation, meals, and other services for travellers and tourists side to a beach"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel> <http://www.w3.org/2000/01/rdf-schema#label> "BeachHotel"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle consisting of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle> <http://www.w3.org/2000/01/rdf-schema#label> "Bicycle"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus> <http://www.w3.org/2000/01/rdf-schema#comment> "A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus> <http://www.w3.org/2000/01/rdf-schema#label> "Bus"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment providing accommodation, meals, and other services for travellers and tourists for professionals"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Business"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#comment> "A large town"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> <http://www.w3.org/2000/01/rdf-schema#comment> "A commercial business"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> <http://www.w3.org/2000/01/rdf-schema#label> "Company"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural> <http://www.w3.org/2000/01/rdf-schema#comment> "A cultural thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural> <http://www.w3.org/2000/01/rdf-schema#label> "Cultural"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic> <http://www.w3.org/2000/01/rdf-schema#comment> "A gastronomic thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic> <http://www.w3.org/2000/01/rdf-schema#label> "Gastronomic"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid3 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment providing accommodation, meals, and other services for travellers and tourists"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> <http://www.w3.org/2000/01/rdf-schema#label> "Hotel"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat italian meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Italian"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat japanese meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Japanese"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular place or position"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An expensive establishment providing accommodation, meals, and other services for travellers and rich tourists"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Luxury"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat mediterranean meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro> <http://www.w3.org/2000/01/rdf-schema#comment> "An urban light railway system, especially one that runs wholly or partly underground"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro> <http://www.w3.org/2000/01/rdf-schema#label> "Metro"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat mexican meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument> <http://www.w3.org/2000/01/rdf-schema#comment> "A statue, building, or other structure erected to commemorate a notable person or event"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument> <http://www.w3.org/2000/01/rdf-schema#label> "Monument"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum> <http://www.w3.org/2000/01/rdf-schema#comment> "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum> <http://www.w3.org/2000/01/rdf-schema#label> "Museum"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music> <http://www.w3.org/2000/01/rdf-schema#comment> "A music thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music> <http://www.w3.org/2000/01/rdf-schema#label> "Music"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park> <http://www.w3.org/2000/01/rdf-schema#comment> "A large public garden or area of land used for recreation"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park> <http://www.w3.org/2000/01/rdf-schema#label> "Park"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid8 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "5"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "A place where people pay to sit and eat meals that are cooked and served on the premises"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Restaurant"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment providing accommodation, meals, and other services for travellers and tourists in a rural environment"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Rural"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport> <http://www.w3.org/2000/01/rdf-schema#comment> "A sport thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport> <http://www.w3.org/2000/01/rdf-schema#label> "Sport"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi> <http://www.w3.org/2000/01/rdf-schema#comment> "A motor vehicle licensed to transport passengers in return for payment of a fare and typically fitted with a taximeter"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi> <http://www.w3.org/2000/01/rdf-schema#label> "Taxi"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech> <http://www.w3.org/2000/01/rdf-schema#comment> "A tech thing that happens or takes place, especially one of importance"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech> <http://www.w3.org/2000/01/rdf-schema#label> "Tech"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment providing accommodation, meals, and other services for tourists"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel> <http://www.w3.org/2000/01/rdf-schema#label> "Tourist"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram> <http://www.w3.org/2000/01/rdf-schema#comment> "A passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram> <http://www.w3.org/2000/01/rdf-schema#label> "Tram"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#comment> "A system or means of conveying people or goods from place to place"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport> <http://www.w3.org/2000/01/rdf-schema#label> "Transport"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "Disney World"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> "3.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.w3.org/2000/01/rdf-schema#comment> "The famous DisneyWorld park"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> <http://www.w3.org/2000/01/rdf-schema#label> "attraction_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "Madrid"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.w3.org/2000/01/rdf-schema#comment> "The capital of Spain"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1> <http://www.w3.org/2000/01/rdf-schema#label> "city_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "Fast and Furious Taxi Inc"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Fast And Furious Taxi Inc."@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> <http://www.w3.org/2000/01/rdf-schema#label> "company_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> "2025-06-27" .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "History_of_Denmak"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Cultural Event about History of Denmark"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1> <http://www.w3.org/2000/01/rdf-schema#label> "event_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "Ambassador"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> "500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> "5.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Hotel expensive as hell"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1> <http://www.w3.org/2000/01/rdf-schema#label> "hotel_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location> "40.4168,-3.7038"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Latitude and Longitude"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1> <http://www.w3.org/2000/01/rdf-schema#label> "location_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name> "Kioto"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> "50.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> "4.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Sushi most wanted in Madrid"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1> <http://www.w3.org/2000/01/rdf-schema#label> "restaurant_1"@en .
+# 
+# http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> "9.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Fast taxi"@en .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1> <http://www.w3.org/2000/01/rdf-schema#label> "transport_1"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid22 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid22 <http://www.w3.org/2000/01/rdf-schema#comment> "Events needs a date" .
+_:genid22 <http://www.w3.org/2000/01/rdf-schema#label> "Rule3" .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid22 <http://www.w3.org/2003/11/swrl#body> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> .
+_:genid24 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d> .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> .
+_:genid26 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid22 <http://www.w3.org/2003/11/swrl#head> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> .
+_:genid28 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid29 <http://www.w3.org/2000/01/rdf-schema#comment> "Good Hotels cannot have low rates" .
+_:genid29 <http://www.w3.org/2000/01/rdf-schema#label> "Rule2" .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid29 <http://www.w3.org/2003/11/swrl#body> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument2> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> .
+_:genid31 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> .
+_:genid33 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2003/11/swrl#arguments> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> .
+_:genid39 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid9 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#comment> "Low cost restaurants has to be rated" .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "Rule1" .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid9 <http://www.w3.org/2003/11/swrl#body> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2003/11/swrl#arguments> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "25.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p> .
+_:genid15 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid15 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> .
+_:genid17 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid17 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid19 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid9 <http://www.w3.org/2003/11/swrl#head> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> .
+_:genid21 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,680 @@
+@prefix : <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#> .
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn
+:availableIn rdf:type owl:ObjectProperty ;
+             rdfs:domain :Transport ;
+             rdfs:range :City ;
+             rdfs:comment "Relation between transport and city"@en ;
+             rdfs:label "availableIn"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction
+:hasAttraction rdf:type owl:ObjectProperty ;
+               rdfs:domain :City ;
+               rdfs:range :Attraction ;
+               rdfs:comment "Relation between city and attraction"@en ;
+               rdfs:label "hasAttraction"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent
+:hasEvent rdf:type owl:ObjectProperty ;
+          rdfs:domain :City ;
+          rdfs:range :Event ;
+          rdfs:comment "Relation between city and event"@en ;
+          rdfs:label "hasEvent"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel
+:hasHotel rdf:type owl:ObjectProperty ;
+          rdfs:domain :City ;
+          rdfs:range :Hotel ;
+          rdfs:comment "Relation between city and hotel"@en ;
+          rdfs:label "hasHotel"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:domain :City ;
+             rdfs:range :Location ;
+             rdfs:comment "Relation between city and location"@en ;
+             rdfs:label "hasLocation"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant
+:hasRestaurant rdf:type owl:ObjectProperty ;
+               rdfs:domain :City ;
+               rdfs:range :Restaurant ;
+               rdfs:comment "Relation between city and restaurant"@en ;
+               rdfs:label "hasRestaurant"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport
+:hasTransport rdf:type owl:ObjectProperty ;
+              rdfs:domain :City ;
+              rdfs:range :Transport ;
+              rdfs:comment "Relation between city and transport"@en ;
+              rdfs:label "hasTransport"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy
+:providedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Transport ;
+            rdfs:range :Company ;
+            rdfs:comment "Relation between transport and company"@en ;
+            rdfs:label "providedBy"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id
+:atraction_id rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Attraction ;
+              rdfs:range xsd:nonNegativeInteger ;
+              rdfs:comment "An id number for an attraction"@en ;
+              rdfs:label "attraction_id"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id
+:city_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :City ;
+         rdfs:range xsd:nonNegativeInteger ;
+         rdfs:comment "An id number for a city"@en ;
+         rdfs:label "city_id"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Event ;
+      rdfs:range xsd:string ;
+      rdfs:comment "The day of the month or year as specified by a number"@en ;
+      rdfs:label "date"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id
+:event_id rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Event ;
+          rdfs:range xsd:nonNegativeInteger ;
+          rdfs:comment "An id number for a event"@en ;
+          rdfs:label "event_id"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel
+:id_hotel rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Hotel ;
+          rdfs:range xsd:nonNegativeInteger ;
+          rdfs:comment "An id number for a hotel"@en ;
+          rdfs:label "hotel_id"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location
+:location rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Location ;
+          rdfs:comment "a string representing latitude and longitude"@en ;
+          rdfs:label "location"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Attraction ,
+                  :City ,
+                  :Company ,
+                  :Event ,
+                  :Hotel ,
+                  :Restaurant ;
+      rdfs:range xsd:string ;
+      rdfs:comment "A word or set of words by which a person or thing is known, addressed, or referred to"@en ;
+      rdfs:label "name"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ,
+                   :Restaurant ,
+                   :Transport ;
+       rdfs:range xsd:float ;
+       rdfs:comment "Average price or, in the case of hotels, price per night"@en ;
+       rdfs:label "price"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate
+:rate rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Attraction ,
+                  :Hotel ,
+                  :Restaurant ;
+      rdfs:range xsd:decimal ;
+      rdfs:comment "A measure, quantity, or frequency, typically one measured against another quantity or measure"@en ;
+      rdfs:label "rate"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id
+:restaurant_id rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Restaurant ;
+               rdfs:range xsd:nonNegativeInteger ;
+               rdfs:comment "An id number for a restaurant"@en ;
+               rdfs:label "restaurant_id"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars
+:stars rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Hotel ;
+       rdfs:range xsd:integer ;
+       rdfs:comment "A number between 1 and 5 that denotes the quality of a hotel"@en ;
+       rdfs:label "stars"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id
+:transport_id rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Transport ;
+              rdfs:range xsd:nonNegativeInteger ;
+              rdfs:comment "An id number for a transport"@en ;
+              rdfs:label "transport_id"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant
+:AndalusianRestaurant rdf:type owl:Class ;
+                      rdfs:subClassOf :Restaurant ;
+                      rdfs:comment "A place where people pay to sit and eat andalusian meals that are cooked and served on the premises"@en ;
+                      rdfs:label "Andalusian"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction
+:Attraction rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :rate ;
+                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:decimal
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :rate ;
+                              owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:decimal
+                            ] ;
+            rdfs:comment "A place which draws visitors by providing something of interest or pleasure"@en ;
+            rdfs:label "Attraction"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach
+:Beach rdf:type owl:Class ;
+       rdfs:subClassOf :Attraction ;
+       rdfs:comment "A strip of land covered with sand, shingle, or small stones at the edge of a body of water, especially by the sea between high- and low-water marks"@en ;
+       rdfs:label "Beach"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel
+:BeachHotel rdf:type owl:Class ;
+            rdfs:subClassOf :Hotel ;
+            rdfs:comment "An establishment providing accommodation, meals, and other services for travellers and tourists side to a beach"@en ;
+            rdfs:label "BeachHotel"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle
+:Bicycle rdf:type owl:Class ;
+         rdfs:subClassOf :Transport ;
+         rdfs:comment "A vehicle consisting of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel"@en ;
+         rdfs:label "Bicycle"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus
+:Bus rdf:type owl:Class ;
+     rdfs:subClassOf :Transport ;
+     rdfs:comment "A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare"@en ;
+     rdfs:label "Bus"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel
+:BusinessHotel rdf:type owl:Class ;
+               rdfs:subClassOf :Hotel ;
+               rdfs:comment "An establishment providing accommodation, meals, and other services for travellers and tourists for professionals"@en ;
+               rdfs:label "Business"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City
+:City rdf:type owl:Class ;
+      rdfs:comment "A large town"@en ;
+      rdfs:label "City"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company
+:Company rdf:type owl:Class ;
+         rdfs:comment "A commercial business"@en ;
+         rdfs:label "Company"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural
+:Cultural rdf:type owl:Class ;
+          rdfs:subClassOf :Event ;
+          rdfs:comment "A cultural thing that happens or takes place, especially one of importance"@en ;
+          rdfs:label "Cultural"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event
+:Event rdf:type owl:Class ;
+       rdfs:comment "A thing that happens or takes place, especially one of importance"@en ;
+       rdfs:label "Event"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic
+:Gastronomic rdf:type owl:Class ;
+             rdfs:subClassOf :Event ;
+             rdfs:comment "A gastronomic thing that happens or takes place, especially one of importance"@en ;
+             rdfs:label "Gastronomic"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :rate ;
+                         owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:decimal
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :stars ;
+                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:nonNegativeInteger
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :rate ;
+                         owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:decimal
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :stars ;
+                         owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:nonNegativeInteger
+                       ] ;
+       rdfs:comment "An establishment providing accommodation, meals, and other services for travellers and tourists"@en ;
+       rdfs:label "Hotel"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant
+:ItalianRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf :Restaurant ;
+                   rdfs:comment "A place where people pay to sit and eat italian meals that are cooked and served on the premises"@en ;
+                   rdfs:label "Italian"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant
+:JapaneseRestaurant rdf:type owl:Class ;
+                    rdfs:subClassOf :Restaurant ;
+                    rdfs:comment "A place where people pay to sit and eat japanese meals that are cooked and served on the premises"@en ;
+                    rdfs:label "Japanese"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location
+:Location rdf:type owl:Class ;
+          rdfs:comment "A particular place or position"@en ;
+          rdfs:label "Location"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel
+:LuxuryHotel rdf:type owl:Class ;
+             rdfs:subClassOf :Hotel ;
+             rdfs:comment "An expensive establishment providing accommodation, meals, and other services for travellers and rich tourists"@en ;
+             rdfs:label "Luxury"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant
+:MediterraneanRestaurant rdf:type owl:Class ;
+                         rdfs:subClassOf :Restaurant ;
+                         rdfs:comment "A place where people pay to sit and eat mediterranean meals that are cooked and served on the premises"@en ;
+                         rdfs:label "Mediterranean"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro
+:Metro rdf:type owl:Class ;
+       rdfs:subClassOf :Transport ;
+       rdfs:comment "An urban light railway system, especially one that runs wholly or partly underground"@en ;
+       rdfs:label "Metro"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant
+:MexicanRestaurant rdf:type owl:Class ;
+                   rdfs:subClassOf :Restaurant ;
+                   rdfs:comment "A place where people pay to sit and eat mexican meals that are cooked and served on the premises"@en ;
+                   rdfs:label "Mexican"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument
+:Monument rdf:type owl:Class ;
+          rdfs:subClassOf :Attraction ;
+          rdfs:comment "A statue, building, or other structure erected to commemorate a notable person or event"@en ;
+          rdfs:label "Monument"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum
+:Museum rdf:type owl:Class ;
+        rdfs:subClassOf :Attraction ;
+        rdfs:comment "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited"@en ;
+        rdfs:label "Museum"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music
+:Music rdf:type owl:Class ;
+       rdfs:subClassOf :Event ;
+       rdfs:comment "A music thing that happens or takes place, especially one of importance"@en ;
+       rdfs:label "Music"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park
+:Park rdf:type owl:Class ;
+      rdfs:subClassOf :Attraction ;
+      rdfs:comment "A large public garden or area of land used for recreation"@en ;
+      rdfs:label "Park"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :rate ;
+                              owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:decimal
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :rate ;
+                              owl:maxQualifiedCardinality "5"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:decimal
+                            ] ;
+            rdfs:comment "A place where people pay to sit and eat meals that are cooked and served on the premises"@en ;
+            rdfs:label "Restaurant"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel
+:RuralHotel rdf:type owl:Class ;
+            rdfs:subClassOf :Hotel ;
+            rdfs:comment "An establishment providing accommodation, meals, and other services for travellers and tourists in a rural environment"@en ;
+            rdfs:label "Rural"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport
+:Sport rdf:type owl:Class ;
+       rdfs:subClassOf :Event ;
+       rdfs:comment "A sport thing that happens or takes place, especially one of importance"@en ;
+       rdfs:label "Sport"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi
+:Taxi rdf:type owl:Class ;
+      rdfs:subClassOf :Transport ;
+      rdfs:comment "A motor vehicle licensed to transport passengers in return for payment of a fare and typically fitted with a taximeter"@en ;
+      rdfs:label "Taxi"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech
+:Tech rdf:type owl:Class ;
+      rdfs:subClassOf :Event ;
+      rdfs:comment "A tech thing that happens or takes place, especially one of importance"@en ;
+      rdfs:label "Tech"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel
+:TouristHotel rdf:type owl:Class ;
+              rdfs:subClassOf :Hotel ;
+              rdfs:comment "An establishment providing accommodation, meals, and other services for tourists"@en ;
+              rdfs:label "Tourist"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram
+:Tram rdf:type owl:Class ;
+      rdfs:subClassOf :Transport ;
+      rdfs:comment "A passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road"@en ;
+      rdfs:label "Tram"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:comment "A system or means of conveying people or goods from place to place"@en ;
+           rdfs:label "Transport"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1
+:attraction_1 rdf:type owl:NamedIndividual ,
+                       :Park ;
+              :atraction_id 1 ;
+              :name "Disney World"@en ;
+              :rate 3.1 ;
+              rdfs:comment "The famous DisneyWorld park"@en ;
+              rdfs:label "attraction_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1
+:city_1 rdf:type owl:NamedIndividual ,
+                 :City ;
+        :hasAttraction :attraction_1 ;
+        :hasEvent :event_1 ;
+        :hasHotel :hotel_1 ;
+        :hasLocation :position_1 ;
+        :hasRestaurant :restaurant_1 ;
+        :hasTransport :transport_1 ;
+        :city_id 1 ;
+        :name "Madrid"@en ;
+        rdfs:comment "The capital of Spain"@en ;
+        rdfs:label "city_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1
+:company_1 rdf:type owl:NamedIndividual ,
+                    :Company ;
+           :name "Fast and Furious Taxi Inc"@en ;
+           rdfs:comment "Fast And Furious Taxi Inc."@en ;
+           rdfs:label "company_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1
+:event_1 rdf:type owl:NamedIndividual ,
+                  :Cultural ;
+         :date "2025-06-27" ;
+         :event_id 1 ;
+         :name "History_of_Denmak"@en ;
+         rdfs:comment "Cultural Event about History of Denmark"@en ;
+         rdfs:label "event_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1
+:hotel_1 rdf:type owl:NamedIndividual ,
+                  :LuxuryHotel ;
+         :id_hotel 1 ;
+         :name "Ambassador"@en ;
+         :price 500.0 ;
+         :rate 5.0 ;
+         :stars 5 ;
+         rdfs:comment "Hotel expensive as hell"@en ;
+         rdfs:label "hotel_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1
+:position_1 rdf:type owl:NamedIndividual ,
+                     :Location ;
+            :location "40.4168,-3.7038"@en ;
+            rdfs:comment "Latitude and Longitude"@en ;
+            rdfs:label "location_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1
+:restaurant_1 rdf:type owl:NamedIndividual ,
+                       :JapaneseRestaurant ;
+              :name "Kioto"@en ;
+              :price 50.0 ;
+              :rate 4.0 ;
+              :restaurant_id 1 ;
+              rdfs:comment "Sushi most wanted in Madrid"@en ;
+              rdfs:label "restaurant_1"@en .
+
+
+###  http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1
+:transport_1 rdf:type owl:NamedIndividual ,
+                      :Taxi ;
+             :providedBy :company_1 ;
+             :price 9.5 ;
+             :transport_id 1 ;
+             rdfs:comment "Fast taxi"@en ;
+             rdfs:label "transport_1"@en .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Events needs a date" ;
+   rdfs:label "Rule3" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :date ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :Event ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Event ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Good Hotels cannot have low rates" ;
+   rdfs:label "Rule2" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :rate ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                  <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                               rdf:first <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> ;
+                                                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                                                          rdf:first 4.0 ;
+                                                                                                                          rdf:rest rdf:nil
+                                                                                                                        ]
+                                                                                                             ]
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Hotel ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :stars ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> 5
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Hotel ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
+   rdfs:comment "Low cost restaurants has to be rated" ;
+   rdfs:label "Rule1" ;
+   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Restaurant ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :rate ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :price ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p> ;
+                                                                                                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                rdf:first 25.0 ;
+                                                                                                                                                rdf:rest rdf:nil
+                                                                                                                                              ]
+                                                                                                                                   ]
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Restaurant ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

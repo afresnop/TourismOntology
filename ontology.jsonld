@@ -1,0 +1,1375 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "25.0"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Events needs a date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rule3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid24"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid28"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Good Hotels cannot have low rates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rule2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid39"
+    }, {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    }, {
+      "@id" : "_:genid31"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid41"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+      "@value" : "4.0"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "0"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Low cost restaurants has to be rated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rule1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid19"
+    }, {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid21"
+    } ]
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#AndalusianRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat andalusian meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Andalusian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place which draws visitors by providing something of interest or pleasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Beach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A strip of land covered with sand, shingle, or small stones at the edge of a body of water, especially by the sea between high- and low-water marks"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BeachHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment providing accommodation, meals, and other services for travellers and tourists side to a beach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BeachHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bicycle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A vehicle consisting of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bicycle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Bus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#BusinessHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment providing accommodation, meals, and other services for travellers and tourists for professionals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A commercial business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cultural thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Gastronomic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A gastronomic thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gastronomic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment providing accommodation, meals, and other services for travellers and tourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#ItalianRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat italian meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Italian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat japanese meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Japanese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A particular place or position"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An expensive establishment providing accommodation, meals, and other services for travellers and rich tourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Luxury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MediterraneanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat mediterranean meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Metro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An urban light railway system, especially one that runs wholly or partly underground"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Metro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#MexicanRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat mexican meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mexican"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Monument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A statue, building, or other structure erected to commemorate a notable person or event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Museum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Museum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A music thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Music"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large public garden or area of land used for recreation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place where people pay to sit and eat meals that are cooked and served on the premises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#RuralHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment providing accommodation, meals, and other services for travellers and tourists in a rural environment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Sport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sport thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A motor vehicle licensed to transport passengers in return for payment of a fare and typically fitted with a taximeter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tech thing that happens or takes place, especially one of importance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tech"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#TouristHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An establishment providing accommodation, meals, and other services for tourists"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tourist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Tram",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A passenger vehicle powered by electricity conveyed by overhead cables, and running on rails laid in a public road"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A system or means of conveying people or goods from place to place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for an attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "attraction_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#atraction_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "Disney World"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The famous DisneyWorld park"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "attraction_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#availableIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between transport and city"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "availableIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#attraction_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "Madrid"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The capital of Spain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "city_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#city_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for a city"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "city_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "Fast and Furious Taxi Inc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fast And Furious Taxi Inc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "company_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The day of the month or year as specified by a number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#date" : [ {
+    "@value" : "2025-06-27"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "History_of_Denmak"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Cultural"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Event about History of Denmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#event_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for a event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasAttraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and attraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAttraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasHotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasLocation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasRestaurant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hasTransport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between city and transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTransport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#hotel_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "Ambassador"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "500.0"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.0"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#LuxuryHotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hotel expensive as hell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hotel_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#id_hotel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for a hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hotel_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a string representing latitude and longitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A word or set of words by which a person or thing is known, addressed, or referred to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#City"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#position_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#location" : [ {
+    "@language" : "en",
+    "@value" : "40.4168,-3.7038"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Latitude and Longitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "location_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Average price or, in the case of hotels, price per night"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between transport and company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "providedBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Company"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A measure, quantity, or frequency, typically one measured against another quantity or measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Attraction"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  }, {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#name" : [ {
+    "@language" : "en",
+    "@value" : "Kioto"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "50.0"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#rate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4.0"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#JapaneseRestaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Sushi most wanted in Madrid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "restaurant_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#restaurant_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for a restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Restaurant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "restaurant_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#stars",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A number between 1 and 5 that denotes the quality of a hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Hotel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "stars"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#price" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9.5"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#providedBy" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#company_1"
+  } ],
+  "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fast taxi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transport_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#transport_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An id number for a transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/TourismOntology#Transport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transport_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/d",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/e",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/h",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/albertofresno/ontologies/2025/3/untitled-ontology-3/r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+} ]
